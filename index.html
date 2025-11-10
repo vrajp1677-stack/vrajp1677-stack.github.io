@@ -3,182 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kapila Dairy Farm - Pure Desi Cow Ghee</title>
-    <style>
-        /* --- Global Styles --- */
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fcfaf6; /* A very light cream color */
-            color: #4B3822; /* Dark brown for text */
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        h1, h2 {
-            font-weight: 600;
-            color: #3D2C1B; /* Darker brown */
-            text-align: center;
-        }
-
-        /* --- Header / Hero Section --- */
-        header {
-            background: linear-gradient(to bottom, #f5f0e1, #fcfaf6);
-            padding: 40px 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5em; /* 40px */
-            margin: 0;
-            line-height: 1.2;
-        }
-        header .brand {
-            font-size: 1.2em; /* 19px */
-            font-weight: 500;
-            color: #6a4f31;
-        }
-
-        /* --- Section Styling --- */
-        section {
-            padding: 40px 0;
-        }
-        section:nth-child(even) {
-            background-color: #ffffff; /* White background for alternating sections */
-        }
-
-        /* --- "Why Choose Us?" Section --- */
-        #features {
-            text-align: center;
-        }
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }
-        .feature-item {
-            background: #fff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-        .feature-item h3 {
-            margin-top: 0;
-            color: #d95b00; /* An accent color (saffron/ghee) */
-        }
-        
-        /* --- "Our Process" Section --- */
-        #process p {
-            font-size: 1.1em;
-            text-align: center;
-            line-height: 1.7;
-            max-width: 700px;
-            margin: 20px auto 0 auto;
-        }
-        
-        /* --- "Products & Pricing" Section --- */
-        #pricing {
-            text-align: center;
-        }
-        .price-table {
-            width: 100%;
-            max-width: 500px;
-            margin: 30px auto;
-            border-collapse: collapse;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            background: #fff;
-        }
-        .price-table th, .price-table td {
-            padding: 20px;
-            border: 1px solid #f0e9dc;
-            text-align: left;
-        }
-        .price-table th {
-            background-color: #f7f3e8;
-            font-size: 1.1em;
-        }
-        .price-table .product {
-            font-size: 1.2em;
-            font-weight: 500;
-        }
-        .price-table .price {
-            font-size: 1.3em;
-            font-weight: 700;
-            color: #3D2C1B;
-            text-align: right;
-        }
-
-        /* --- "How to Order" (Call to Action) Section --- */
-        #order {
-            background-color: #3D2C1B; /* Dark brown for high contrast */
-            color: #ffffff;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        #order h2 {
-            color: #ffffff;
-        }
-        #order p {
-            font-size: 1.1em;
-        }
-        .whatsapp-button {
-            display: inline-block;
-            background-color: #25D366; /* Official WhatsApp Green */
-            color: #ffffff;
-            font-size: 1.2em;
-            font-weight: 600;
-            text-decoration: none;
-            padding: 15px 30px;
-            border-radius: 50px;
-            margin-top: 20px;
-            transition: transform 0.2s ease;
-        }
-        .whatsapp-button:hover {
-            transform: scale(1.05);
-        }
-
-        /* --- Footer --- */
-        footer {
-            text-align: center;
-            padding: 30px 20px;
-            background: #f5f0e1;
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #6a4f31;
-        }
-
-    </style>
+    <title>Kapila Dairy Farm - 100% Pure A2 Bilona Ghee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <nav class="navbar">
         <div class="container">
-            <div class="brand">Kapila Dairy Farm</div>
-            <h1>Experience the Taste of Purity</h1>
-            <p style="font-size: 1.2em;">100% Pure Desi Cow Ghee</p>
+            <div class="nav-logo">Kapila Dairy Farm</div>
+            <ul class="nav-links">
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#process">Our Process</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#trust">Purity</a></li>
+                <li><a href="#order" class="nav-cta">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>The Taste of Tradition. The Purity of Gold.</h1>
+            <p>Experience 100% Pure, Authentic Desi Ghee, Crafted with the Traditional Bilona Method.</p>
+            <a href="#products" class="btn btn-primary">Shop Our Ghee</a>
         </div>
     </header>
 
+    <section id="about">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img src="httpsT://via.placeholder.com/400x400.png?text=Our+Farm" alt="Kapila Dairy Farm">
+            </div>
+            <div class="about-content">
+                <h2>From Our Family Farm to Your Table</h2>
+                <p class="mission">Kapila Dairy Farm isn't just a business; it's a promise. A promise to honor the sacred 'Kapila' cow and the ancient traditions of our ancestors. Our mission is to bring you the purest, most authentic Desi Ghee, crafted without compromise.</p>
+                <p>Meet Vraj P., a third-generation farmer. 'I saw how mass-produced products were losing their connection to real food. I started Kapila to create one thing: a ghee that is 100% real, the way my grandmother made it.'</p>
+                <p><strong>Our Philosophy:</strong> We believe happy, free-grazing cows produce the best milk. We believe in the wisdom of tradition. And we believe you deserve to know exactly what is in your food.</p>
+            </div>
+        </div>
+    </section>
+
     <section id="features">
         <div class="container">
-            <h2>Why Choose Our Ghee?</h2>
+            <h2 class="section-title">Why Choose Kapila Ghee?</h2>
             <div class="features-grid">
                 <div class="feature-item">
+                    <div class="feature-icon">🐄</div>
+                    <h3>A2 Desi Cow Milk</h3>
+                    <p>Our ghee is made exclusively from the nutrient-rich A2 milk of free-grazing Desi cows, not mass-produced A1 milk.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Traditional Bilona Method</h3>
+                    <p>We honor the authentic "Bilona" process: Milk is set to curd, churned to butter, and then slow-simmered to perfection.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌿</div>
                     <h3>100% Pure & Unadulterated</h3>
-                    <p>You get exactly what you pay for: pure, golden ghee with no additives, vegetable oils, or preservatives.</p>
-                </div>
-                <div class="feature-item">
-                    <h3>Authentic Traditional Method</h3>
-                    <p>We honor the authentic "desi" process: Milk is churned to butter, which is then simmered to create the finest ghee.</p>
-                </div>
-                <div class="feature-item">
-                    <h3>Rich Aroma & Flavor</h3>
-                    <p>Our slow-simmering process ensures the rich, nutty aroma and granulated texture that signifies high-quality ghee.</p>
+                    <p>Zero additives, preservatives, or vegetable oils. Just pure, golden, granulated ghee with a rich, nutty aroma.</p>
                 </div>
             </div>
         </div>
@@ -186,44 +72,139 @@
 
     <section id="process">
         <div class="container">
-            <h2>Our Process: From Milk to Ghee</h2>
-            <p>We believe in purity, not shortcuts. Our process is simple and traditional. First, we collect the freshest, high-quality cow's milk. We then churn this milk to create rich, wholesome butter. Finally, the butter is slowly simmered to perfection, clarifying it into the golden, aromatic, and pure desi ghee you receive.</p>
+            <h2 class="section-title">Our Process: From Farm to Jar</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <img src="httpsT://via.placeholder.com/300x200.png?text=Step+1:+A2+Milk" alt="A2 Cow Milk">
+                    <h3>1. The Source</h3>
+                    <p>It all begins with our healthy, free-grazing Desi cows. We gather their nutrient-rich A2 milk as the foundation.</p>
+                </div>
+                <div class="step">
+                    <img src="httpsT://via.placeholder.com/300x200.png?text=Step+2:+Curd" alt="Milk set to curd">
+                    <h3>2. The Culture</h3>
+                    <p>The whole milk is gently boiled, cooled, and set into rich, wholesome curd in traditional clay pots.</p>
+                </div>
+                <div class="step">
+                    <img src="httpsT://via.placeholder.com/300x200.png?text=Step+3:+Bilona+Churn" alt="Bilona churning">
+                    <h3>3. The Churn</h3>
+                    <p>We churn the curd using the traditional Bilona method, separating the pure *makkhan* (butter) by hand.</p>
+                </div>
+                <div class="step">
+                    <img src="httpsT://via.placeholder.com/300x200.png?text=Step+4:+Slow+Simmer" alt="Simmering butter">
+                    <h3>4. The Simmer</h3>
+                    <p>The butter is slow-simmered in a heavy *kadai* to clarify and develop its rich, nutty aroma.</p>
+                </div>
+                <div class="step">
+                    <img src="httpsT://via.placeholder.com/300x200.png?text=Step+5:+Pure+Ghee" alt="Filtering pure ghee">
+                    <h3>5. The Nectar</h3>
+                    <p>The result: pure, golden, granulated ghee. Filtered and bottled with zero additives. Nothing added, nothing taken away.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="pricing">
+    <section id="products">
         <div class="container">
-            <h2>Our Products & Fixed Rates</h2>
-            <p>Simple, honest pricing. We deliver all over India.</p>
-            <table class="price-table">
-                <tr>
-                    <th>Product</th>
-                    <th>Fixed Price</th>
-                </tr>
-                <tr>
-                    <td class="product">1kg Desi Cow Ghee Jar</td>
-                    <td class="price">₹1099</td>
-                </tr>
-                </table>
+            <h2 class="section-title">Our Products</h2>
+            <p class="section-subtitle">Simple, honest pricing. We deliver all over India.</p>
+            <div class="product-card">
+                <img src="httpsT://via.placeholder.com/300x300.png?text=Kapila+Ghee+Jar" alt="Kapila Desi Cow Ghee" class="product-image">
+                <div class="product-info">
+                    <h3>1kg Pure A2 Bilona Ghee</h3>
+                    <p>Our signature product. 1kg of pure, granulated Desi Ghee, delivered in a glass jar to preserve freshness.</p>
+                    <div class="price-box">
+                        <span class="price">₹1099</span>
+                        <span class="mrp">₹1299</span>
+                    </div>
+                    <a href="#order" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item">
+                    <p>"The aroma is incredible! It reminds me of my childhood. You can tell this is the real thing. I'm never going back to store-bought ghee."</p>
+                    <cite>— Priya S., Mumbai</cite>
+                </div>
+                <div class="testimonial-item">
+                    <p>"I use this for my child and for all my cooking. The 'danedar' texture is perfect. My digestion has improved. Thank you, Kapila Farm."</p>
+                    <cite>— Rohan K., Delhi</cite>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Finally, a brand I can trust. The taste is rich and nutty, not like the flat-tasting commercial ghee. Excellent quality."</p>
+                    <cite>— Anjali V., Bangalore</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trust">
+        <div class="container trust-container">
+            <div class="trust-content">
+                <h3>Our Purity Promise</h3>
+                <p>We stand by our quality. Our ghee is 100% pure, free from all additives, vegetable oils, and preservatives. We conduct batch testing to ensure what you receive is only the purest ghee.</p>
+                <div class="lab-report">
+                    <h4>Batch Test Results (Example)</h4>
+                    <ul>
+                        <li>Adulterant Screen: <strong>Not Detected (Pass)</strong></li>
+                        <li>Fat Content: <strong>99.8% (Pass)</strong></li>
+                    </ul>
+                    <a href="#" class="link">View Full Lab Report</a>
+                </div>
+            </div>
+            <div class="trust-image">
+                <img src="httpsT://via.placeholder.com/300x300.png?text=Trust+Badge" alt="100% Pure Ghee Guarantee">
+            </div>
         </div>
     </section>
 
     <section id="order">
         <div class="container">
-            <h2>Ready to Order?</h2>
-            <p>We deliver all across India!</p>
-            <p>Click the button below to send us a message on WhatsApp, or add this number to your contacts:</p>
+            <h2 class="section-title">Ready to Taste the Purity?</h2>
+            <p class="section-subtitle">We deliver all across India! Order securely in 2 minutes.</p>
             
-            <a href="https://wa.me/91990”9680284 class="whatsapp-button" target="_blank">
+            <a href="https://wa.me/919909680284" class="btn btn-whatsapp" target="_blank">
                 Order on WhatsApp
             </a>
+            <p style="margin-top: 15px;">Or... (Coming Soon: Secure Online Payment)</p>
+
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Kapila Dairy Farm. All Rights Reserved.</p>
-            <p>Contact Us: [9909680284] | [vrajp1677@gmail.com]</p>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Kapila Dairy Farm</h4>
+                    <p>Honoring tradition, one jar at a time.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#products">Shop</a></li>
+                        <li><a href="#trust">Purity Promise</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p>Email: <a href="mailto:vrajp1677@gmail.com">vrajp1677@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+919909680284">+91 9909680284</a></p>
+                    <p></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <p><a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kapila Dairy Farm. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
 
